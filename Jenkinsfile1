@@ -43,6 +43,13 @@ pipeline
 				{
 					echo 'Final Success'
 				}
-			}	
+			}
+         stage('Final Success1')
+			{
+				steps
+				{
+					echo 'Final Success1'
+				}
+			}
 		}
 }
